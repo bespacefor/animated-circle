@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/icons/fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/js-console.css">
+    <title>Animated Circle</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html" class="active">Animated Circle</a>
+        </nav>
+    </header>
+    <main>
+        <p>Напишите скрипт, который создает заданное число "div" элементов и перемещает их по круговому пути с заданным интервалом времени.</p>
+        <div class="container">
+            <div class="box">
+                <span>Enter the number of moving elements:</span>
+                <input type="text" id="divsNumber" autocomplete="off" placeholder="number">
+            </div>
+            <div class="box">
+                <span>Enter the rotation speed of the elements (a number between 100 and 1000):</span>
+                <input type="text" id="timeInterval" autocomplete="off" placeholder="speed">
+            </div>
+        </div>
+        <button id="test">Test</button>
+        <button id="create">Create</button>
+        <button id="animate">Animate</button>
+        <div id="console"></div>
+    </main>
+    <script src="./scripts/js-console.js"></script>
+    <script src="./scripts/script.js" defer></script>
+</body>
+</html>
