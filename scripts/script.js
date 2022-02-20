@@ -4,7 +4,7 @@ const divsNumber = document.getElementById('divsNumber');
 const timeInterval = document.getElementById('timeInterval');
 
 const startX = 525;
-const startY = 475;
+const startY = 400;
 const radius = 100;
 
 let divsArray = [];
